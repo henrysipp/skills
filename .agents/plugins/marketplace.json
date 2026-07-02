@@ -1,0 +1,12 @@
+{
+  "name": "henry-skills",
+  "plugins": [
+    {
+      "name": "swift-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/swift-skills"
+      }
+    }
+  ]
+}
