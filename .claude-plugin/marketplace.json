@@ -11,6 +11,13 @@
       "description": "Swift concurrency, SwiftUI patterns, performance auditing, and iOS debugging skills",
       "category": "development",
       "keywords": ["swift", "swiftui", "ios", "concurrency", "performance"]
+    },
+    {
+      "name": "general-skills",
+      "source": "./plugins/general-skills",
+      "description": "Language-agnostic workflow skills",
+      "category": "productivity",
+      "keywords": ["writing", "communication"]
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "name": "general-skills",
+  "version": "0.1.0",
+  "description": "Language-agnostic workflow skills",
+  "author": {
+    "name": "Henry Sipp"
+  },
+  "skills": ["./skills/"]
+}

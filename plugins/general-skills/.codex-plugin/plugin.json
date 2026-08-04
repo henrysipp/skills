@@ -1,0 +1,6 @@
+{
+  "name": "general-skills",
+  "version": "0.1.0",
+  "description": "Language-agnostic workflow skills",
+  "skills": "./skills/"
+}

@@ -1,7 +1,8 @@
 # skills
 
-Swift/SwiftUI skills packaged as one plugin, installable in Claude Code,
-Codex, and Cursor from this repo.
+Skills packaged as plugins, installable in Claude Code, Codex, and Cursor from
+this repo. `swift-skills` holds the Swift/SwiftUI work; `general-skills` holds
+language-agnostic ones.
 
 ## Install
 
@@ -10,6 +11,7 @@ Claude Code:
 ```
 /plugin marketplace add henrysipp/skills
 /plugin install swift-skills@henry-skills
+/plugin install general-skills@henry-skills
 ```
 
 Codex:
@@ -17,11 +19,12 @@ Codex:
 ```
 codex plugin marketplace add henrysipp/skills
 codex plugin add swift-skills@henry-skills
+codex plugin add general-skills@henry-skills
 ```
 
 Cursor: no third-party marketplace registration. Install from GitHub via
 Customize → Rules → Remote Rule (repo URL), or publish to cursor.com/marketplace.
-Local dev: copy `plugins/swift-skills` into `~/.cursor/plugins/local/`.
+Local dev: copy the plugin dir into `~/.cursor/plugins/local/`.
 
 Local checkout works too — point `marketplace add` at the repo path instead of
 `owner/repo`. Installs are cached copies either way; pull updates with
@@ -30,7 +33,7 @@ Local checkout works too — point `marketplace add` at the repo path instead of
 ## Layout
 
 ```
-plugins/swift-skills/             the plugin, shared verbatim by all three tools
+plugins/<plugin>/                 a plugin, shared verbatim by all three tools
   .claude-plugin/plugin.json      Claude plugin manifest
   .codex-plugin/plugin.json       Codex plugin manifest
   .cursor-plugin/plugin.json      Cursor plugin manifest
@@ -50,7 +53,7 @@ symlinks), so the plugin dir holds the real skill content.
 
 ## Updating skills
 
-Edit under `plugins/swift-skills/skills/`, bump `version` in all three
+Edit under `plugins/<plugin>/skills/`, bump `version` in that plugin's three
 plugin.json manifests, commit. Consumers pick it up on their next marketplace
 update. Installed copies live in each tool's plugin cache — edits there are
 lost on update, so always change the repo, not the cache.

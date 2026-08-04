@@ -7,6 +7,13 @@
         "source": "local",
         "path": "./plugins/swift-skills"
       }
+    },
+    {
+      "name": "general-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/general-skills"
+      }
     }
   ]
 }
