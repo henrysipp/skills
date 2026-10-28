@@ -1,0 +1,4 @@
+interface:
+  display_name: "Morning Review"
+  short_description: "Review last night's commits one by one"
+  default_prompt: "Use $morning-review to walk me through what the night shift did."

@@ -2,7 +2,8 @@
 
 Skills packaged as plugins, installable in Claude Code, Codex, and Cursor from
 this repo. `swift-skills` holds the Swift/SwiftUI work; `general-skills` holds
-language-agnostic ones.
+language-agnostic ones; `night-shift` is the spec-by-day, agents-by-night
+workflow (see [its README](plugins/night-shift/README.md)).
 
 ## Install
 
@@ -12,6 +13,7 @@ Claude Code:
 /plugin marketplace add henrysipp/skills
 /plugin install swift-skills@henry-skills
 /plugin install general-skills@henry-skills
+/plugin install night-shift@henry-skills
 ```
 
 Codex:
@@ -20,6 +22,7 @@ Codex:
 codex plugin marketplace add henrysipp/skills
 codex plugin add swift-skills@henry-skills
 codex plugin add general-skills@henry-skills
+codex plugin add night-shift@henry-skills
 ```
 
 Cursor: no third-party marketplace registration. Install from GitHub via

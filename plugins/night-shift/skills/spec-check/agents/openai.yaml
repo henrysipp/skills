@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spec Check"
+  short_description: "Find gaps in a spec before the night shift"
+  default_prompt: "Use $spec-check to review this spec and give me a checklist of gaps."

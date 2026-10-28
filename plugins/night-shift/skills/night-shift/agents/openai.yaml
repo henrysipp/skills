@@ -1,0 +1,4 @@
+interface:
+  display_name: "Night Shift"
+  short_description: "Run the overnight spec-to-commit loop"
+  default_prompt: "Use $night-shift to work through every ready spec tonight and write the morning report."

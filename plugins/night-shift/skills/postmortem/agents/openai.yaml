@@ -1,0 +1,4 @@
+interface:
+  display_name: "Postmortem"
+  short_description: "Fix the process that led an agent astray"
+  default_prompt: "Use $postmortem to find which doc or check let this mistake through, and fix that first."

@@ -1,6 +1,6 @@
 {
   "name": "henry-skills",
-  "description": "Shared Swift/SwiftUI skills and agents for Claude Code and Codex",
+  "description": "Shared skills and agents for Claude Code and Codex",
   "owner": {
     "name": "Henry Sipp"
   },
@@ -10,14 +10,36 @@
       "source": "./plugins/swift-skills",
       "description": "Swift concurrency, SwiftUI patterns, performance auditing, and iOS debugging skills",
       "category": "development",
-      "keywords": ["swift", "swiftui", "ios", "concurrency", "performance"]
+      "keywords": [
+        "swift",
+        "swiftui",
+        "ios",
+        "concurrency",
+        "performance"
+      ]
     },
     {
       "name": "general-skills",
       "source": "./plugins/general-skills",
       "description": "Language-agnostic workflow skills",
       "category": "productivity",
-      "keywords": ["writing", "communication"]
+      "keywords": [
+        "writing",
+        "communication"
+      ]
+    },
+    {
+      "name": "night-shift",
+      "source": "./plugins/night-shift",
+      "description": "Spec-driven overnight agent loop with persona review gates, morning review, and postmortems",
+      "category": "productivity",
+      "keywords": [
+        "workflow",
+        "autonomous",
+        "specs",
+        "review",
+        "tdd"
+      ]
     }
   ]
 }

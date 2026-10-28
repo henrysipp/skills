@@ -1,0 +1,6 @@
+{
+  "name": "night-shift",
+  "version": "0.1.0",
+  "description": "Night Shift workflow: write specs by day, agents implement and self-review overnight, you review commits in the morning",
+  "skills": "./skills/"
+}

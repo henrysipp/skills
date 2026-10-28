@@ -1,0 +1,4 @@
+interface:
+  display_name: "Night Shift Setup"
+  short_description: "Prepare a repo for the night shift loop"
+  default_prompt: "Use $night-shift-setup to set this repo up for the night shift."

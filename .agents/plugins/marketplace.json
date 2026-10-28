@@ -14,6 +14,13 @@
         "source": "local",
         "path": "./plugins/general-skills"
       }
+    },
+    {
+      "name": "night-shift",
+      "source": {
+        "source": "local",
+        "path": "./plugins/night-shift"
+      }
     }
   ]
 }

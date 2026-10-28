@@ -1,0 +1,4 @@
+interface:
+  display_name: "Night Watch"
+  short_description: "Cross-review night shift commits as they land"
+  default_prompt: "Use $night-watch to review the night shift's commits as they land and write findings to TODOS_REVIEW.md."
